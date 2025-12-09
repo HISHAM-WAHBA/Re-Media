@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  opacity: 0;
+  transition: opacity 1.5s ease; /* الظهور التدريجي */
+}
+
+body.fade-in {
+  opacity: 1;
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/cover.jpg");
+  background-position: contain;
+  background-size: cover;
+  position: relative;
+}
+/* Noon */
+
+.noon {
+  position: absolute;
+  top: 15%;
+  left: 83%;
+  width: 10%;
+}
+.noon img {
+  width: 100%;
+}
+/* Re Music */
+
+.re-music {
+  position: absolute;
+  top: 70%;
+  left: 75%;
+  width: 15%;
+}
+.re-music img {
+  width: 100%;
+}
+/*RE Studios*/
+
+.re-studios {
+  position: absolute;
+  top: 75%;
+  left: 62%;
+  width: 10%;
+}
+.re-studios img {
+  width: 100%;
+}
+/* e'jaaz */
+
+.ejaaz {
+  position: absolute;
+  top: 45%;
+  left: 59%;
+  width: 10%;
+}
+.ejaaz img {
+  width: 100%;
+}
+/* Bless */
+
+.bless {
+  position: absolute;
+  top: 5%;
+  left: 59%;
+  width: 10%;
+}
+.bless img {
+  width: 100%;
+}
+
+
+.custom-footer {
+  background-color: #1d1d1d;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.custom-footer a {
+  color: #ff3b3b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.custom-footer a:hover {
+  text-decoration: underline;
+}
