@@ -223,7 +223,7 @@ body.fade-in {
 .timeline-body p {
   line-height: 1.30;
   font-size: 5.5vw;
-  font-family:serif;
+  font-family:"Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;;
 }
 
 /* footer */
@@ -242,6 +242,7 @@ body.fade-in {
   transform: scale(1.2);
 }
 }
+
 
 
 
