@@ -7,19 +7,10 @@ body {
   opacity: 0;
   transition: opacity 1.5s ease;
 }
-
 body.fade-in {
   opacity: 1;
 }
-
-/*  */
-/*  */
-/*  */
 /* large size */
-/*  */
-/*  */
-/*  */
-
 .header {
   position: relative;
 }
@@ -35,17 +26,12 @@ body.fade-in {
 .mobile-cover {
   display: none;
 }
-
 .logos {
   transition: transform 0.3s ease-in-out;
 }
-
 .logos:hover {
   transform: scale(1.2);
 }
-
-/* Noon */
-
 .noon {
   position: absolute;
   top: 5%;
@@ -55,8 +41,6 @@ body.fade-in {
 .noon img {
   width: 100%;
 }
-/* Re Music */
-
 .re-music {
   position: absolute;
   top: 16.5%;
@@ -66,8 +50,6 @@ body.fade-in {
 .re-music img {
   width: 100%;
 }
-/*RE Studios*/
-
 .re-studios {
   position: absolute;
   top: 16.5%;
@@ -77,8 +59,6 @@ body.fade-in {
 .re-studios img {
   width: 100%;
 }
-/* e'jaaz */
-
 .ejaaz {
   position: absolute;
   top: 19.5%;
@@ -88,8 +68,6 @@ body.fade-in {
 .ejaaz img {
   width: 100%;
 }
-/* Bless */
-
 .bless {
   position: absolute;
   top: 0.6%;
@@ -99,9 +77,7 @@ body.fade-in {
 .bless img {
   width: 100%;
 }
-
 /* About */
-
 .timeline-body {
   position: absolute;
   text-align: center;
@@ -111,10 +87,10 @@ body.fade-in {
 }
 .timeline-body p {
   line-height: 1.35;
-  font-size: 2.2vw;
-  font-family:"Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2.4vw;
+  font-weight: 350;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
 /* footer */
 .custom-footer {
   position: absolute;
@@ -132,14 +108,48 @@ body.fade-in {
 .custom-footer img:hover {
   transform: scale(1.3);
 }
-/*  */
-/*  */
-/*  */
-/* Small size */
-/*  */
-/*  */
-/*  */
 
+/* developer- */
+
+.developer-credit {
+  position: absolute;
+  top: 7vw;
+  width: 100%;
+  text-align: center;
+  align-self: center;
+  font-size: 10px;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+
+.developer-credit a {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease;
+  font-family: monospace;
+}
+
+.developer-credit a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0;
+  height: 1px;
+  background: #fff;
+  transition: width 0.3s ease;
+}
+
+.developer-credit a:hover {
+  color: #fff;
+}
+.developer-credit a:hover::after {
+  width: 100%;
+}
+
+/* Small size */
 @media (max-width: 768px) {
   .header {
     position: relative;
@@ -156,8 +166,6 @@ body.fade-in {
   .cpu-cover {
     display: none;
   }
-  /* Noon */
-
   .noon {
     position: absolute;
     top: 8%;
@@ -167,8 +175,6 @@ body.fade-in {
   .noon img {
     width: 100%;
   }
-  /* Re Music */
-
   .re-music {
     position: absolute;
     top: 14.5%;
@@ -178,8 +184,6 @@ body.fade-in {
   .re-music img {
     width: 100%;
   }
-  /*RE Studios*/
-
   .re-studios {
     position: absolute;
     top: 15%;
@@ -189,8 +193,6 @@ body.fade-in {
   .re-studios img {
     width: 100%;
   }
-  /* e'jaaz */
-
   .ejaaz {
     position: absolute;
     top: 12%;
@@ -200,8 +202,6 @@ body.fade-in {
   .ejaaz img {
     width: 100%;
   }
-  /* Bless */
-
   .bless {
     position: absolute;
     top: 6%;
@@ -211,39 +211,37 @@ body.fade-in {
   .bless img {
     width: 100%;
   }
-/* About */
-
-.timeline-body {
-  position: absolute;
-  text-align: center;
-  top: 21%;
-  left: 10%;
-  width: 80%;
+  .timeline-body {
+    position: absolute;
+    text-align: center;
+    top: 21%;
+    left: 10%;
+    width: 80%;
+  }
+  .timeline-body p {
+    line-height: 1.3;
+    font-size: 5.5vw;
+    font-weight: 350;
+    font-family: serif;
+  }
+  /* footer */
+  .custom-footer {
+    position: absolute;
+    top: 797vw;
+    left: 10%;
+    width: 25%;
+  }
+  .custom-footer img {
+    cursor: pointer;
+    width: 100%;
+    transition: 0.2s;
+  }
+  .custom-footer img:hover {
+    transform: scale(1.2);
+  }
+  .developer-credit{
+    width: 150%;
+    left: 0%;
+    top: 100%;
+  }
 }
-.timeline-body p {
-  line-height: 1.30;
-  font-size: 5.5vw;
-  font-family:"Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;;
-}
-
-/* footer */
-.custom-footer {
-  position: absolute;
-  top: 797vw;
-  left: 10%;
-  width: 25%;
-}
-.custom-footer img{
-  cursor: pointer;
-  width: 100%;
-  transition: 0.2s;
-}
-.custom-footer img:hover {
-  transform: scale(1.2);
-}
-}
-
-
-
-
-
